@@ -16,7 +16,9 @@ The script will let you write the appropriate domain (e.g., domain.com, domain.n
 
 **Don't** write the domain with http:// or https:// included. 
 
-You can use subdomains as www. 
+Note:
+
+You can use subdomains as www  and you have to execute the script on the folder where the **.txt** file exported from sh404SEF is located (or enter the complete path as a parameter).
 
 ### Additional info
 
