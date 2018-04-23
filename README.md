@@ -4,17 +4,17 @@ Short script to generate a sitemap from sh404SEF exported URLs on Linux
 
 ### Running
 
-To execute the script, you just have to download the .sh file and give it execution permissions:
+To execute the script, you have to download the .sh file and give it execution permissions:
 
 `chmod +x sh404SEFsitemap.sh`
 
-Then you just have to use the name of the sh404SEF exported **.txt** file as a parameter:
+Then you just have to use the name of the **.txt** file exported from sh404SEF as a parameter:
 
 `./sh404SEFsitemap.sh filename.txt`
 
 The script will let you enter the appropriate domain (e.g., domain.com, domain.net, subdomain.domain.com etc.) and choose to use HTTPS or HTTP for the sitemap. This script removes all duplicate entries from the sh404SEF file (if there are indeed duplicates) and formats the generated XML file according to the protocol [available on sitemaps.org](https://www.sitemaps.org/protocol.html).
 
-**Don't** write the domain with http:// or https:// included. 
+**Don't** enter the domain with http:// or https:// included. 
 
 Note:
 
