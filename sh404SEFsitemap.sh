@@ -6,12 +6,12 @@ then
 elif [[ $1 ]]
 then
     EXPORTEDURLS=$1
-    echo "Write the complete domain of your website (without http://). You can include any subdomain as www"
+    echo "Enter the complete domain of your website (without http://). You can include any subdomain as www"
     echo "Example: www.domain.com or domain.com."
     read DOMAIN
 	if  [ -z "$DOMAIN" ]
 	then 
-	    echo "You have to write a domain before continuing"
+	    echo "You have to enter a domain before continuing"
 	    exit 2
 	else
            echo "Do you want to use HTTPS? (Y/N)"
